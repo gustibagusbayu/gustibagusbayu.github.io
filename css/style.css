@@ -274,6 +274,7 @@ html {
     align-items: center;
     padding-top: 100px;
     z-index: 1;
+    display: none;
     transition: all 0.5s;
   }
   .navbar .navbar-nav.slide {
