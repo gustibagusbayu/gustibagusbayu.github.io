@@ -263,7 +263,7 @@ html {
     margin-top: 0 !important;
   }
   .navbar .navbar-nav {
-    width: 70%;
+    width: 60%;
     position: fixed;
     flex-direction: column;
     height: 100vh;
@@ -274,11 +274,10 @@ html {
     align-items: center;
     padding-top: 100px;
     z-index: 1;
-    opacity: 0;
     transition: all 0.5s;
   }
   .navbar .navbar-nav.slide {
-    opacity: 1;
+    display: flex;
   }
   .navbar .nav-item .nav-link {
     padding-top: 50px;
